@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+     <title> Teso </title> 
+    <link rel="stylesheet" href="indexstyle.css">
+   </head>
+<body>
+  <nav>
+    <div class="nav-content">
+      <div class="logo">
+        <a href="\index.html"><img src="\images\teso_logo.png" width="100px"></a>
+      </div>
+      <ul class="nav-links">
+        
+        <li><a href="\login.html">Login</a></li>
+        <li><a href="\signup.html">Sign Up</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="hero-vid" style="
+  height: 800px;
+">
+    <video width="100%" height="auto" autoplay muted loop>
+        <source src="images/video.mp4" type="video/mp4">
+      </video>
+      <div class="overlay" style="
+      top: 80px;
+  ">
+        <h1>Welcome to TESO</h1>
+        <p>Revolutionizing network connectivity.</p>
+      </div>
+  </div>
+  
+  
+  <div class="features">
+		<img src="\images\keyfeatures.jpg" width="100%"><img src="\images\plans.jpg" width="100%"><img src="\images\faq.jpg" width="100%">
+	</div>
+  <footer>
+    <div class="footerContainer">
+        <div class="footerNav">
+            <ul><li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">our Team</a></li>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="footerBottom">
+        <p>no copyright ;-; &copy;2024; Designed by <span class="designer">Teso</span></p>
+    </div>
+</footer>
+  <script>
+  let nav = document.querySelector("nav");
+    window.onscroll = function() {
+      if(document.documentElement.scrollTop > 20){
+        nav.classList.add("sticky");
+      }else {
+        nav.classList.remove("sticky");
+      }
+    }
+  </script>
+
+</body>
+</html>
